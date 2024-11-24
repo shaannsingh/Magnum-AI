@@ -16,7 +16,7 @@
   .hamburger-button {
     position: fixed;
     left: 9px;
-    top: 9px;
+    top: 6px;
     z-index: 100;
     background: none;
     border: none;

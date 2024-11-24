@@ -1,5 +1,5 @@
 import Sidebar from "./components/Sidebar";
-import './App.css'
+import './styles/App.css'
 import SearchBar from "./components/SearchBar";
 
 const App = () => {

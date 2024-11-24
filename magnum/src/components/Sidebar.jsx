@@ -1,4 +1,4 @@
-import './Sidebar.css'
+import '../styles/Sidebar.css'
 import { useState } from 'react';
 import { Menu } from 'lucide-react';
 
