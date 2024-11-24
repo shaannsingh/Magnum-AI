@@ -25,7 +25,6 @@
   padding: 20px;
 }
 
-/* Optional: If you want to constrain just the search bar */
 .search-wrapper {
   width: 100%;
   max-width: 800px;
