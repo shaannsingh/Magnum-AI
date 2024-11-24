@@ -32,10 +32,15 @@
   .sidebar-content {
     padding: 22px;
     padding-top: 60px;
-    cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
   }
-  
+
+  .sidebar-nav-content {
+    padding-bottom: 8px;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+
   .sidebar-title {
     font-size: 24px;
     font-weight: bold;
@@ -47,12 +52,6 @@
     padding: 0;
   }
   
-  .sidebar-nav-item {
-    padding: 12px;
-    cursor: pointer;
-    border-radius: 4px;
-  }
-  
-  .sidebar-nav-item:hover {
-    background-color: #333;
+  .sidebar-nav-content:hover {
+    color: #bcbcbc;
   }

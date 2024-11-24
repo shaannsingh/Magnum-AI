@@ -1,13 +1,19 @@
 import Sidebar from "./components/Sidebar";
-import './styles/App.css'
 import SearchBar from "./components/SearchBar";
+import Logo from "./components/Logo";
+import './styles/App.css'
 
 const App = () => {
   return (
     <div className="app">
       <Sidebar />
       <div className="main-content">
-        <SearchBar />
+        <div className="logo-container">
+          <Logo />
+        </div>
+        <div className="searchbar-container">
+          <SearchBar />
+        </div>
       </div>
     </div>
   )

@@ -25,7 +25,12 @@
   padding: 20px;
 }
 
-.search-wrapper {
+.searchbar-container {
   width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   max-width: 800px;
 }
