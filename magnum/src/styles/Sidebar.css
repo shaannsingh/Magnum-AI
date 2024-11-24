@@ -32,6 +32,8 @@
   .sidebar-content {
     padding: 22px;
     padding-top: 60px;
+    cursor: pointer;
+    font-size: 18px;
   }
   
   .sidebar-title {
