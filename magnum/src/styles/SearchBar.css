@@ -2,7 +2,6 @@
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
-    padding: 20px;
     text-align: center;
 }
 
@@ -30,7 +29,7 @@
     flex: 1;
     padding: 12px 12px 12px 40px;
     border: 2px solid #333;
-    border-radius: 8px;
+    border-radius: 16px;
     background-color: #1a1a1a;
     color: white;
     font-size: 16px;
@@ -54,14 +53,14 @@
     background-color: #333;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 16px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.2s;
 }
 
 .search-button:hover {
-    background-color: #444;
+    background-color: rgb(29, 151, 151);
 }
 
 .search-button:focus {
@@ -71,3 +70,13 @@
 .search-submit:focus {
     outline: none;
 }
+
+.searchbar-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+  }
