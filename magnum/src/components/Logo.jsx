@@ -1,11 +1,16 @@
-const Logo = () => {
-    return (
-        <div className="logo-container">
-            <h1 className="logo-text">
-                magnum.ai
-            </h1>
-        </div>
-    )
-}
+import logo from '../assets/logo.gif'
+const AnimatedLogo = () => {
+  return (
+    <div className="flex justify-center items-center w-full">
+      <div className="w-48 h-48 flex justify-center items-center">
+        <img 
+          src={logo} 
+          alt="Animated logo" 
+          className="w-full h-full object-contain"
+        />
+      </div>
+    </div>
+  );
+};
 
-export default Logo
+export default AnimatedLogo;
